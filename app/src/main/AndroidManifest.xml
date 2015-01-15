@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BusinessCardBio"
+            android:label="@string/title_activity_business_card_bio" >
+        </activity>
+        <activity
+            android:name=".Cab"
+            android:label="@string/title_activity_cab" >
+        </activity>
     </application>
 
 </manifest>

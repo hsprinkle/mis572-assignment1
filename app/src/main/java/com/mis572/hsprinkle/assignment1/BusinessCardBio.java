@@ -14,36 +14,19 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 
-public class BusinessCard extends ActionBarActivity {
+public class BusinessCardBio extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_business_card);
-
-        Button bioB = (Button)findViewById(R.id.button1);
-        Button goToCab = (Button)findViewById(R.id.goToCab);
-
-        bioB.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(BusinessCard.this, BusinessCardBio.class));
-            }
-        });
-
-        goToCab.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(BusinessCard.this, Cab.class));
-            }
-        });
+        setContentView(R.layout.activity_business_card_bio);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_business_card, menu);
+        getMenuInflater().inflate(R.menu.menu_business_card_bio, menu);
         return true;
     }
 
@@ -53,9 +36,12 @@ public class BusinessCard extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

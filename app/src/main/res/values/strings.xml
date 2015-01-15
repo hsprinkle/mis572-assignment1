@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Assignment1</string>
-    <string name="hello_world">Hello world!</string>
+    <!-- App titles -->
+    <string name="app_name">Assignment 1</string>
+    <string name="title_activity_business_card">Business Card</string>
+    <string name="title_activity_business_card_bio">Bio</string>
+    <string name="title_activity_cab">NYC Cab Fare App</string>
+    <string name="title_activity_cab_result"></string>
     <string name="action_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="calcTitle">Cab Fare Cost</string>
+
+    <!-- Buttons -->
+    <string name="goToCab">Go to Cab App</string>
+    <string name="goToBC">Go to Business Card</string>
+    <string name="btnTitle">Find the Cost</string>
+    <string name="btnBio">Click for Bio</string>
+    <string name="btnBack">Go Back</string>
+
+    <!-- Text input -->
+    <string name="milesHint">Distance (in miles)</string>
+
+    <!-- Other : Business Card App -->
+    <string name="fullName">Heather Sprinkle</string>
+    <string name="phone">815.603.2070</string>
+    <string name="address1">12332 Tim Tam Court</string>
+    <string name="cityStateZip">Orland Park, IL 60467</string>
+    <string name="company">Printing Arts</string>
+    <string name="busAddress1">2001 West 21st Street</string>
+    <string name="busCityStateZip">Broadview, IL 60155</string>
+    <string name="extendedBio">Hardworking graduate with a passion for the field of information technology.
+        Has an enthusiasm for learning and applying knowledge to solve problems. Passionate about computers and technology
+        and eager to stay up-to-date on the latest techniques and trends in the field. Positive and upbeat personality with
+        the ability to adapt and harmonize both in the workplace and in her personal life.</string>
+
+    <!-- Other : Cab App -->
+    <string name="cabCompany">RMU Cab Company</string>
+
+    <string-array name="preferred_cab">
+        <item>Smart Car</item>
+        <item>Sedan</item>
+        <item>Minivan</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
